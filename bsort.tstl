@@ -1,9 +1,12 @@
 @import bsort
 
-pool: <value> 1
+pool: <value> 4
 pool: <list> 1
 
 <value> := 1
+
+<value> += 1
+<value> -= 1
 
 <list> := []
 <list>.append(~<value>)
