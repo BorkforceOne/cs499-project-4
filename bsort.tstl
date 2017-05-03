@@ -1,0 +1,11 @@
+@import bsort
+
+pool: <value> 1
+pool: <list> 1
+
+<value> := 1
+
+<list> := []
+<list>.append(~<value>)
+
+assert (bsort.bsort(<list>)) == (sorted(<list,1>))

@@ -1,0 +1,4 @@
+sut.py
+*.test
+*.out
+*.pyc
